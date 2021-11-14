@@ -1,4 +1,5 @@
-document.getElementById('main-form').addEventListener("submit",checkForm);
+window.addEventListener('DOMContentLoaded', function (event) {
+document.getElementById('main-form').addEventListener("submit",checkForm);});
 function checkForm(event)
 {	
 	event.preventDefault();
